@@ -14,12 +14,32 @@
         Calculadora de Huella de Carbono en Python!
     </h1>
     <form method="post">
+        <label for="email">
+            Email:
+        </label>
+        <input type="email" name="email" id="email" placeholder="tu_email@ejemplo.com..." required>
+        <label for="transporte">
+            Elige tu transporte
+        </label>    
+        <select name="transporte" id="transporte">
+            <option value="coche">Coche 🚗</option>
+            <option value="moto">Moto 🏍️</option>
+            <option value="bus">Transporte público 🚌</option>
+            <option value="tren">Tren 🚆</option>
+            <option value="avion">Avión ✈️</option>
+            <option value="bicicleta">Bicicleta 🚲</option> 
+            <option value="pie">A pie 🚶‍♂️</option>
+        </select>
         <label for="km">
             ¿Cuántos kilómetros conduces por semana?
         </label>
-        <input type="number" id="km" name="km" step="any" required>
+        <input type="number" id="km" name="km" step="any" placeholder="Ej: 100..." required>
         <button type="submit">Calcular</button>
     </form>
+    <span id="recomendacion">
+        <strong>✨Recomendación del día: </strong>
+        {{ recomendacion}}
+    </span>
     {% if result %}
         <h2>Resultado:{{ result }}</h2>
     {% endif %}

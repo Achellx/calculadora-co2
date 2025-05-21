@@ -1,0 +1,42 @@
+[33mcommit 8908135287d7edc1931d8863c8abf2bd0de7a9db[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Achellx <alex.orion03@gmail.com>
+Date:   Fri May 23 19:01:51 2025 -0600
+
+    Actualiza .gitignore y elimina pycache del seguimiento
+
+[33mcommit e0cd6bd273103ad4d137b5b72d2d760c68a01d33[m
+Author: Achellx <alex.orion03@gmail.com>
+Date:   Fri May 23 18:53:25 2025 -0600
+
+    Cambios para el examen
+
+[33mcommit 1da86b4673df7f8a56aed73045ccc87cb3f5353d[m
+Author: Achellx <alex.orion03@gmail.com>
+Date:   Wed May 21 16:58:41 2025 -0600
+
+    Cambios para el examen en Clud
+
+[33mcommit 45ded95578f6e31593034f67f238b64a1e5c890b[m[33m ([m[1;31mmain/master[m[33m)[m
+Merge: c7a8300 5de9186
+Author: Achellx <alex.orion03@gmail.com>
+Date:   Sun May 18 23:32:28 2025 -0600
+
+    update UI
+
+[33mcommit c7a8300735d9498053a1ffe772caf0e6da7c2fc0[m
+Author: Achellx <alex.orion03@gmail.com>
+Date:   Sun May 18 23:30:24 2025 -0600
+
+    Update UI
+
+[33mcommit 5de918614d5baa18dc365d3e13c8d6557be1e69c[m
+Author: Alejandro Soto <64869366+Achellx@users.noreply.github.com>
+Date:   Sun May 18 22:19:46 2025 -0600
+
+    Add or update the Azure App Service build and deployment workflow config
+
+[33mcommit ce3264bbf44224d04f5f461745cf08374a5ab5a8[m
+Author: Achellx <alex.orion03@gmail.com>
+Date:   Sun May 18 22:15:39 2025 -0600
+
+    Primer commit
